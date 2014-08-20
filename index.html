@@ -23,7 +23,7 @@
   <body class='index'>
     <header>
       <div class='welcome'>
-        <svg height='220px' viewBox='0 0 600 600' width='220px'>
+        <svg viewBox='0 0 600 600'>
           <a class='scrollToPortfolio' xlink:href='#portfolio'>
             <g id='logo'>
               <path class='colorChange' d=' m280,599.39c-125.8-7.42-240.47-102.31-270.32-224.93-28.694-106.47,8.4638-226.76,92.058-298.64,92.75-85.558,241.57-100.14,349.3-34.483,96.561,55.633,157.12,167.79,147.98,279.22-6.7902,126.16-102.88,240.41-225.5,270.03-30.436,8.3484-62.141,9.575-93.514,8.8098zm54.5-65.826c45.425-7.1671,89.227-26.827,123.34-57.874-14.46-39.37-34.63-76.77-51.78-115.19h-212.26c-17.102,38.418-37.276,75.804-51.655,115.18,51.412,46.954,123.71,67.499,192.35,57.89zm-156.58-290.31c27.24-58.46,54.47-116.92,81.72-175.37-92.98,13.406-171.08,90.067-190.15,181.6-12.106,56.82-3.539,118.37,26.216,168.52,28.004-57.96,54.904-116.46,82.214-174.75zm334.08,160.5c46.07-91.16,23.69-210.72-53.02-278.46-32.92-30.188-74.84-50.113-118.71-57.852,53.98,117.17,108.65,234.03,163.99,350.56,3.1253-4.4367,5.2755-9.4414,7.7324-14.25zm-137.31-110.5c-25-53.04-49.18-106.47-74.73-159.25-25.594,53.31-50.553,107.13-75.123,160.8,50.237,2.4509,100.82,0.68771,151.21,1.1985l-0.75117-1.5187-0.60901-1.2313z'></path>
@@ -59,57 +59,78 @@
       </ul>
       <div class='tab-content'>
         <div class='tab-pane fade in active' id='sectionA'>
-          <ul class='aj-sites'>
-            <li>
-              <div class='plane'>
-                <div class='imageLink'>
+          <div class='container'>
+            <div class='row row-centered' id='v2'>
+              <div class='col-lg-4 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-6 col-xs-12'>
+                <figure>
                   <a href='//fiddystates.herokuapp.com/' target='_blank'>
                     <img alt="" src="images/fiddyStates.png" />
                   </a>
-                </div>
-                <div class='info'>
-                  <h3>State Information</h3>
-                  <p>A web app that allows AJAX autocomplete for each letter input. All Functionalities built in raw JavaScript.</p>
-                  <p>
-                    <a class='gitLink' href='//github.com/antonmaximus/states#readme' target='_blank'>
-                      <i class='fa fa-github fa-2x'></i>
-                      View Code on GitHub
-                    </a>
-                  </p>
-                  <p class='tags'>
-                    <span>JavaScript</span>
-                    <span>No jQuery</span>
-                    <span>AJAX</span>
-                    <span>JSON</span>
-                    <span>PHP</span>
-                    <span>MVC</span>
-                  </p>
-                </div>
+                  <figcaption>
+                    <h3>State Information</h3>
+                    <p>A web app built in raw JavaScript that utilizes an MVC framework.</p>
+                    <div class='gitDiv'>
+                      <p>
+                        <a class='gitLink' href='//github.com/antonmaximus/states' target='_blank'>
+                          <i class='fa fa-github fa-2x'></i>
+                          View Code on GitHub
+                        </a>
+                      </p>
+                    </div>
+                    <p class='tags'>
+                      <span>JavaScript</span>
+                      <span>No jQuery</span>
+                      <span>AJAX</span>
+                      <span>JSON</span>
+                      <span>PHP</span>
+                      <span>MVC</span>
+                    </p>
+                  </figcaption>
+                </figure>
               </div>
-            </li>
-            <li>
-              <div class='plane'>
-                <div class='imageLink topSecret'>
-                  <span>[Coming Soon]</span>
-                  <img alt="" src="images/errorPage.png" />
-                </div>
-                <div class='info'>
-                  <h3>Improv Masters</h3>
-                  <p>A static informational website built with modern front-end framework.</p>
-                  <!-- %p -->
-                  <!-- %a.gitLink{ href:"//github.com/antonmaximus/states#readme", target:"_blank" } -->
-                  <!-- %i.fa.fa-github.fa-2x -->
-                  <!-- View Code on GitHub -->
-                  <p class='tags'>
-                    <span>Twitter Bootstrap</span>
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>jQuery</span>
-                  </p>
-                </div>
+              <div class='col-lg-4 col-md-5 col-sm-6 col-xs-12'>
+                <figure>
+                  <a href='//antonmaximus.github.io/improvmastersproject/build/' target='_blank'>
+                    <img alt="" src="images/improvMasters.png" />
+                  </a>
+                  <figcaption>
+                    <h3>ImprovMasters</h3>
+                    <p>A site built on Twitter Bootstrap, utilizes Google Docs as a backend for its JSON, and incorporates various design techniques.</p>
+                    <div class='gitDiv'>
+                      <p>
+                        <a class='gitLink' href='//github.com/antonmaximus/improvmastersproject' target='_blank'>
+                          <i class='fa fa-github fa-2x'></i>
+                          View Code on GitHub
+                        </a>
+                      </p>
+                    </div>
+                    <p class='tags'>
+                      <span>Twitter Bootstrap</span>
+                      <span>jQuery</span>
+                      <span>HTML5</span>
+                      <span>CSS3</span>
+                      <span>Google Docs as backend</span>
+                      <span>JSON</span>
+                      <span>Design</span>
+                    </p>
+                  </figcaption>
+                </figure>
               </div>
-            </li>
-          </ul>
+              <div class='col-lg-4 col-md-5 col-sm-6 col-centered col-xs-12'>
+                <figure>
+                  <div class='topSecret'>
+                    <span>[Coming Soon]</span>
+                    <img alt="" src="images/errorPage.png" />
+                  </div>
+                  <figcaption>
+                    <h3>Django Project</h3>
+                    <p>A site utilizing Django.</p>
+                    <p class='tags'></p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
         <div class='tab-pane fade' id='sectionB'>
           <div class='carouselWrapper'>
@@ -162,25 +183,25 @@
       <ul>
         <li>
           <a alt='email' href='//www.linkedin.com/in/anton23' id='emailako'>
-            <i class='fa fa-envelope-o fa-3x'></i>
+            <i class='fa fa-envelope-o fa-2x'></i>
             <span>Email</span>
           </a>
         </li>
         <li>
           <a alt='LinkedIn' href='//www.linkedin.com/in/anton23' target='_blank'>
-            <i class='fa fa-linkedin-square fa-3x'></i>
+            <i class='fa fa-linkedin-square fa-2x'></i>
             <span>Resume</span>
           </a>
         </li>
         <li>
           <a alt='Blog' href='//blog.anton23.com' target='_blank'>
-            <i class='fa fa-pencil-square-o fa-3x'></i>
+            <i class='fa fa-book fa-2x'></i>
             <span>Blog</span>
           </a>
         </li>
         <li>
           <a alt='Twitter' href='//twitter.com/antonmaximus' target='_blank'>
-            <i class='fa fa-twitter fa-3x'></i>
+            <i class='fa fa-twitter fa-2x'></i>
             <span>Twitter</span>
           </a>
         </li>
