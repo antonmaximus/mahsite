@@ -262,8 +262,8 @@ figure {
             filter: none; }
   /* line 244, /Users/aj/Documents/web/site/versions/site6_colored/v2/source/stylesheets/custom.css.scss */
   figure a:hover img {
-    -webkit-filter: url("filters.svg#red");
-            filter: url("filters.svg#red"); }
+    -webkit-filter: url("/stylesheets/filters.svg#red");
+            filter: url("/stylesheets/filters.svg#red"); }
   /* line 248, /Users/aj/Documents/web/site/versions/site6_colored/v2/source/stylesheets/custom.css.scss */
   figure figcaption {
     text-align: left;
