@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "path": "./images/forAnimationCarousel/450_fufu.png",
+            "title": "image 1"
+        },
+        {
+            "path": "./images/forAnimationCarousel/450_savageOppress.png",
+            "title": "image 1"
+        },
+        {
+            "path": "./images/forAnimationCarousel/450_killerSuperAceHighFive.png",
+            "title": "image 1"
+        },
+        {
+            "path": "./images/forAnimationCarousel/450_deathWatchNiteOwl.png",
+            "title": "image 1"
+        },
+        {
+            "path": "./images/forAnimationCarousel/450_bob.png",
+            "title": "image 1"
+        }
+    ]
+}

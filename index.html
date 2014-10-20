@@ -32,175 +32,185 @@
     <meta content='#da532c' name='msapplication-TileColor'>
     <meta content='./images/favicons/mstile-144x144.png' name='msapplication-TileImage'>
     <meta content='./images/favicons/browserconfig.xml' name='msapplication-config'>
+    <!-- %link{:href => "./images/favicon/favicon.ico", :rel => "shortcut icon"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-57x57.png", :rel => "apple-touch-icon", :sizes => "57x57"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-114x114.png", :rel => "apple-touch-icon", :sizes => "114x114"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-72x72.png", :rel => "apple-touch-icon", :sizes => "72x72"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-144x144.png", :rel => "apple-touch-icon", :sizes => "144x144"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-60x60.png", :rel => "apple-touch-icon", :sizes => "60x60"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-120x120.png", :rel => "apple-touch-icon", :sizes => "120x120"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-76x76.png", :rel => "apple-touch-icon", :sizes => "76x76"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-152x152.png", :rel => "apple-touch-icon", :sizes => "152x152"}/ -->
+    <!-- %link{:href => "./images/favicon/apple-touch-icon-180x180.png", :rel => "apple-touch-icon", :sizes => "180x180"}/ -->
+    <!-- %link{:href => "./images/favicon/favicon-192x192.png", :rel => "icon", :sizes => "192x192", :type => "image/png"}/ -->
+    <!-- %link{:href => "./images/favicon/favicon-160x160.png", :rel => "icon", :sizes => "160x160", :type => "image/png"}/ -->
+    <!-- %link{:href => "./images/favicon/favicon-96x96.png", :rel => "icon", :sizes => "96x96", :type => "image/png"}/ -->
+    <!-- %link{:href => "./images/favicon/favicon-16x16.png", :rel => "icon", :sizes => "16x16", :type => "image/png"}/ -->
+    <!-- %link{:href => "./images/favicon/favicon-32x32.png", :rel => "icon", :sizes => "32x32", :type => "image/png"}/ -->
+    <!-- %meta{:content => "#da532c", :name => "msapplication-TileColor"}/ -->
+    <!-- %meta{:content => "./images/favicon/mstile-144x144.png", :name => "msapplication-TileImage"}/ -->
+    <!-- %meta{:content => "./images/favicon/browserconfig.xml", :name => "msapplication-config"}/ -->
     <!-- $BOOTSTRAP  CSS CDN -->
     <link href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' rel='stylesheet'>
     <!-- Stylesheets -->
-    <link href="stylesheets/custom.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/animate.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body class='index'>
     <header>
       <div class='welcome'>
-        <svg viewBox='0 0 600 600'>
-          <a class='scrollToPortfolio' xlink:href='#portfolio'>
-            <g id='logo'>
-              <path class='colorChange' d=' m280,599.39c-125.8-7.42-240.47-102.31-270.32-224.93-28.694-106.47,8.4638-226.76,92.058-298.64,92.75-85.558,241.57-100.14,349.3-34.483,96.561,55.633,157.12,167.79,147.98,279.22-6.7902,126.16-102.88,240.41-225.5,270.03-30.436,8.3484-62.141,9.575-93.514,8.8098zm54.5-65.826c45.425-7.1671,89.227-26.827,123.34-57.874-14.46-39.37-34.63-76.77-51.78-115.19h-212.26c-17.102,38.418-37.276,75.804-51.655,115.18,51.412,46.954,123.71,67.499,192.35,57.89zm-156.58-290.31c27.24-58.46,54.47-116.92,81.72-175.37-92.98,13.406-171.08,90.067-190.15,181.6-12.106,56.82-3.539,118.37,26.216,168.52,28.004-57.96,54.904-116.46,82.214-174.75zm334.08,160.5c46.07-91.16,23.69-210.72-53.02-278.46-32.92-30.188-74.84-50.113-118.71-57.852,53.98,117.17,108.65,234.03,163.99,350.56,3.1253-4.4367,5.2755-9.4414,7.7324-14.25zm-137.31-110.5c-25-53.04-49.18-106.47-74.73-159.25-25.594,53.31-50.553,107.13-75.123,160.8,50.237,2.4509,100.82,0.68771,151.21,1.1985l-0.75117-1.5187-0.60901-1.2313z'></path>
-            </g>
-          </a>
-          <h1>Anton</h1>
-          <p class='doc'>I develop and prettify things.</p>
-        </svg>
+        <h1 id='scrollToPortfolio'>A</h1>
+        <p>Anton. Web Dev. Los Angeles.</p>
       </div>
     </header>
-    <main id='portfolio'>
-      <ul class='nav nav-pills'>
-        <li class='active'>
-          <a class='spin' data-toggle='pill' href='#sectionA'>
-            <span>Web</span>
-            <span>Web</span>
+    <hr class='topHR'>
+    <section class='web' id='webPortfolio'>
+      <h1>Web Work</h1>
+      <div class='panel'>
+        <figure class='wow flipInY' data-wow-delay='0.44s'>
+          <a href='//antonmaximus.github.io/jsCarousel/build/' target='_blank'>
+            <img alt="" src="images/web/jscarousel.png" />
           </a>
-        </li>
-        <!-- %li.filler &#8226; -->
-        <li>
-          <a class='spin' data-toggle='pill' href='#sectionB'>
-            <span>Animation</span>
-            <span>Animation</span>
+          <figcaption>
+            <h3>JavaScript OOP</h3>
+            <p>
+              Object-oriented programming using raw JavaScript to create Carousel objects.
+              The app also supports Flickr API.
+            </p>
+            <div class='gitDiv'>
+              <p>
+                <a class='gitLink' href='https://github.com/antonmaximus/jsCarousel' target='_blank'>
+                  <i class='fa fa-github fa-2x'></i>
+                  View Code on GitHub
+                </a>
+              </p>
+            </div>
+            <p class='tags'>
+              <span>JavaScript</span>
+              <span>No jQuery</span>
+              <span>AJAX</span>
+              <span>JSON</span>
+              <span>JSONP</span>
+              <span>MVC</span>
+              <span>OOP</span>
+              <span>Flickr API</span>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class='panel'>
+        <figure class='wow flipInY' data-wow-delay='0.44s'>
+          <a href='//antonmaximus.github.io/improvmastersproject/build/' target='_blank'>
+            <img alt="" src="images/web/improvMasters.png" />
           </a>
-        </li>
-        <!-- %li.filler &#8226; -->
-        <li>
-          <a class='spin' data-toggle='pill' href='#sectionC'>
-            <span>C++</span>
-            <span>C++</span>
+          <figcaption>
+            <h3>Design</h3>
+            <p>A site incorporating various design techniques, uses Twitter Bootstrap, &amp; uses Google Docs as a backend.</p>
+            <div class='gitDiv'>
+              <p>
+                <a class='gitLink' href='//github.com/antonmaximus/improvmastersproject' target='_blank'>
+                  <i class='fa fa-github fa-2x'></i>
+                  View Code on GitHub
+                </a>
+              </p>
+            </div>
+            <p class='tags'>
+              <span>Twitter Bootstrap</span>
+              <span>jQuery</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Google Docs as backend</span>
+              <span>JSON</span>
+              <span>Design</span>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class='panel'>
+        <figure class='wow flipInY' data-wow-delay='0.25s'>
+          <a href='//fiddystates.herokuapp.com/' target='_blank'>
+            <img alt="" src="images/web/fiddyStates.png" />
           </a>
-        </li>
-      </ul>
-      <div class='tab-content'>
-        <div class='tab-pane fade in active' id='sectionA'>
-          <div class='container'>
-            <div class='row row-centered' id='v2'>
-              <div class='col-lg-4 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-6 col-xs-12'>
-                <figure class='wow flipInY' data-wow-delay='0.25s'>
-                  <a href='//fiddystates.herokuapp.com/' target='_blank'>
-                    <img alt="" src="images/fiddyStates.png" />
-                  </a>
-                  <figcaption>
-                    <h3>JavaScript App</h3>
-                    <p>A web app built in raw JavaScript that utilizes an MVC framework.</p>
-                    <div class='gitDiv'>
-                      <p>
-                        <a class='gitLink' href='//github.com/antonmaximus/states' target='_blank'>
-                          <i class='fa fa-github fa-2x'></i>
-                          View Code on GitHub
-                        </a>
-                      </p>
-                    </div>
-                    <p class='tags'>
-                      <span>JavaScript</span>
-                      <span>No jQuery</span>
-                      <span>AJAX</span>
-                      <span>JSON</span>
-                      <span>PHP</span>
-                      <span>MVC</span>
-                    </p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class='col-lg-4 col-md-5 col-sm-6 col-xs-12'>
-                <figure class='wow flipInY' data-wow-delay='0.44s'>
-                  <a href='//antonmaximus.github.io/improvmastersproject/build/' target='_blank'>
-                    <img alt="" src="images/improvMasters.png" />
-                  </a>
-                  <figcaption>
-                    <h3>Development &amp; Design</h3>
-                    <p>A site built on Twitter Bootstrap, utilizes Google Docs as a backend for its JSON, and incorporates various design techniques.</p>
-                    <div class='gitDiv'>
-                      <p>
-                        <a class='gitLink' href='//github.com/antonmaximus/improvmastersproject' target='_blank'>
-                          <i class='fa fa-github fa-2x'></i>
-                          View Code on GitHub
-                        </a>
-                      </p>
-                    </div>
-                    <p class='tags'>
-                      <span>Twitter Bootstrap</span>
-                      <span>jQuery</span>
-                      <span>HTML5</span>
-                      <span>CSS3</span>
-                      <span>Google Docs as backend</span>
-                      <span>JSON</span>
-                      <span>Design</span>
-                    </p>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class='col-lg-4 col-md-5 col-sm-6 col-centered col-xs-12'>
-                <figure class='wow flipInY' data-wow-delay='0.70s'>
-                  <div class='topSecret'>
-                    <span>[Coming Soon]</span>
-                    <img alt="" src="images/errorPage.png" />
-                  </div>
-                  <figcaption>
-                    <h3>Django Project</h3>
-                    <p>A site utilizing Django.</p>
-                    <p class='tags'></p>
-                  </figcaption>
-                </figure>
-              </div>
+          <figcaption>
+            <h3>JavaScript App</h3>
+            <p>A web app built in raw JavaScript that utilizes an MVC framework.</p>
+            <div class='gitDiv'>
+              <p>
+                <a class='gitLink' href='//github.com/antonmaximus/states' target='_blank'>
+                  <i class='fa fa-github fa-2x'></i>
+                  View Code on GitHub
+                </a>
+              </p>
             </div>
-          </div>
-        </div>
-        <div class='tab-pane fade' id='sectionB'>
-          <div class='carouselWrapper'>
-            <div class='carousel slide' data-interval='2300' data-ride='carousel' id='myCarousel'>
-              <!-- Carousel Indicators -->
-              <ol class='carousel-indicators'>
-                <!-- Looping elements for the dropdown sub-menu -->
-                <li class='active' data-slide-to='0' data-target='#myCarousel'></li>
-                <li class='' data-slide-to='1' data-target='#myCarousel'></li>
-                <li class='' data-slide-to='2' data-target='#myCarousel'></li>
-                <li class='' data-slide-to='3' data-target='#myCarousel'></li>
-                <li class='' data-slide-to='4' data-target='#myCarousel'></li>
-              </ol>
-              <div class='carousel-inner'>
-                <div class='active item'>
-                  <img alt="Fufu" src="images/carousel/450_fufu.png" />
-                </div>
-                <div class='item'>
-                  <img alt="Savage Oppress" src="images/carousel/450_savageOppress.png" />
-                </div>
-                <div class='item'>
-                  <img alt="Super Ace &amp; Killer" src="images/carousel/450_killerSuperAceHighFive.png" />
-                </div>
-                <div class='item'>
-                  <img alt="Nite Owl" src="images/carousel/450_deathWatchNiteOwl.png" />
-                </div>
-                <div class='item'>
-                  <img alt="Bob" src="images/carousel/450_bob.png" />
-                </div>
-              </div>
-              <a class='carousel-control left' data-slide='prev' href='#myCarousel'>
-                <span class='glyphicon glyphicon-chevron-left'></span>
-              </a>
-              <a class='carousel-control right' data-slide='next' href='#myCarousel'>
-                <span class='glyphicon glyphicon-chevron-right'></span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class='tab-pane fade' id='sectionC'>
-          <div class='objectWrapper'>
-            <div class='videoWrapper'>
-              <iframe allowfullscreen class='youtube-player' src='//www.youtube.com/embed/DR_7Y5M9ORE?wmode=transparent&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=0&amp;amp;autohide=1&amp;amp;color=white&amp;amp;' type='text/html'></iframe>
-            </div>
-          </div>
+            <p class='tags'>
+              <span>JavaScript</span>
+              <span>No jQuery</span>
+              <span>AJAX</span>
+              <span>JSON</span>
+              <span>PHP</span>
+              <span>MVC</span>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <hr>
+    <section class='animation'>
+      <h1>Animation</h1>
+      <div class='objectWrapper'>
+        <div class='videoWrapper'>
+          <iframe allowfullscreen class='youtube-player' src='//www.youtube.com/embed/IGdQ-C8-jlc?wmode=transparent&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=0&amp;amp;autohide=1&amp;amp;color=white&amp;amp;' type='text/html'></iframe>
         </div>
       </div>
-    </main>
+      <div class='carouselWrapper'>
+        <div class='carousel slide' data-interval='2300' data-ride='carousel' id='myCarousel'>
+          <!-- Carousel Indicators -->
+          <ol class='carousel-indicators'>
+            <!-- Looping elements for the dropdown sub-menu -->
+            <li class='active' data-slide-to='0' data-target='#myCarousel'></li>
+            <li class='' data-slide-to='1' data-target='#myCarousel'></li>
+            <li class='' data-slide-to='2' data-target='#myCarousel'></li>
+            <li class='' data-slide-to='3' data-target='#myCarousel'></li>
+            <li class='' data-slide-to='4' data-target='#myCarousel'></li>
+          </ol>
+          <div class='carousel-inner'>
+            <div class='active item'>
+              <img alt="Fufu" src="images/forAnimationCarousel/450_fufu.png" />
+            </div>
+            <div class='item'>
+              <img alt="Savage Oppress" src="images/forAnimationCarousel/450_savageOppress.png" />
+            </div>
+            <div class='item'>
+              <img alt="Super Ace & Killer" src="images/forAnimationCarousel/450_killerSuperAceHighFive.png" />
+            </div>
+            <div class='item'>
+              <img alt="Nite Owl" src="images/forAnimationCarousel/450_deathWatchNiteOwl.png" />
+            </div>
+            <div class='item'>
+              <img alt="Bob" src="images/forAnimationCarousel/450_bob.png" />
+            </div>
+          </div>
+          <a class='carousel-control left' data-slide='prev' href='#myCarousel'>
+            <span class='glyphicon glyphicon-chevron-left'></span>
+          </a>
+          <a class='carousel-control right' data-slide='next' href='#myCarousel'>
+            <span class='glyphicon glyphicon-chevron-right'></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class='cplusplus'>
+      <h1>C++</h1>
+      <div class='objectWrapper'>
+        <div class='videoWrapper'>
+          <iframe allowfullscreen class='youtube-player' src='//www.youtube.com/embed/DR_7Y5M9ORE?wmode=transparent&amp;amp;autoplay=0&amp;amp;rel=0&amp;amp;showinfo=0&amp;amp;autohide=1&amp;amp;color=white&amp;amp;' type='text/html'></iframe>
+        </div>
+      </div>
+    </section>
     <footer>
       <ul>
         <li>
-          <a alt='email' href='//www.linkedin.com/in/anton23' id='emailako'>
+          <a alt='email' href='#' id='emailako'>
             <i class='fa fa-envelope-o fa-2x'></i>
             <span>Email</span>
           </a>
@@ -225,6 +235,20 @@
         </li>
       </ul>
     </footer>
+    <!--  -->
+    <!-- - if build? -->
+    <!-- - else -->
+    <!-- = javascript_include_tag "carousel/helperFunctions.js" -->
+    <!-- = javascript_include_tag "carousel/helperFunctionsFlickr.js" -->
+    <!-- = javascript_include_tag "carousel/controllers.js" -->
+    <!-- = javascript_include_tag "carousel/views.js" -->
+    <!-- = javascript_include_tag "carousel/models.js" -->
+    <!-- = javascript_include_tag "ajCustom.js" -->
+    <!-- More Scripts -->
+    <!-- :javascript -->
+    <!-- var carouselA = new CAROUSEL.Carousel({ divId: 'carouselA', jsonPath: './javascripts/json/animationWork.json', -->
+    <!-- download: 'false', backgroundColor: '#808080', -->
+    <!-- width: 640, height: 400 }); -->
     <!-- JQUERY CDN -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
     <!-- JQUERY Fallback -->
@@ -253,21 +277,7 @@
         if(itemToCheck != 'inline-block') {
         $("head").prepend('<link rel="stylesheet" href="./fallback/font-awesome-4.1.0/css/font-awesome.min.css">');}});
     </script>
-    <!-- Javascripts -->
-    <script src="javascripts/ajCustom.js" type="text/javascript"></script>
-    <!-- Animation by Wow.js -->
-    <script src="javascripts/wow.min.js" type="text/javascript"></script>
-    <script>
-        new WOW().init();
-    </script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
-        ga('create', 'UA-17064025-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+    <!-- scripts -->
+    <script src="javascripts/application.js" type="text/javascript"></script>
   </body>
 </html>
