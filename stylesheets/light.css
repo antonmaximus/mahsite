@@ -62,10 +62,6 @@
 
 /* line 31, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .lighting {
-  -webkit-animation-name: fadein;
-          animation-name: fadein;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
   position: absolute;
   top: 6%;
   left: 3%; }
