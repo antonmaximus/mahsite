@@ -1,1 +1,0 @@
-$("#scrollToPortfolio").on("click",function(e){e.preventDefault();var t=$("#webPortfolio").offset().top-$(window).scrollTop();$("html,body").animate({scrollTop:t},1e3)}),function(){function e(e){return String.fromCharCode(e.charCodeAt(0)+1)}var t="mailto:",n="anto"+e("m")+23+"@g"+"mai"+"l.co"+e("l");document.getElementById("emailako").href=t+n}();
