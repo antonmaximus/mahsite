@@ -64,96 +64,96 @@
 .lighting {
   -webkit-animation-name: fadein;
           animation-name: fadein;
-  -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
-  -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
   opacity: 0;
   position: absolute;
   top: 6%;
   left: 3%; }
-  /* line 41, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 42, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .lighting a {
     color: #d7d7d7; }
-    /* line 43, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+    /* line 44, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
     .lighting a:hover {
       color: gray; }
 
 @-webkit-keyframes fadein {
-  /* line 51, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 52, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   from {
     opacity: 0; }
 
-  /* line 54, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 55, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   to {
     opacity: 1; } }
 
 @keyframes fadein {
-  /* line 51, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 52, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   from {
     opacity: 0; }
 
-  /* line 54, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 55, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   to {
     opacity: 1; } }
 
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
-/* line 63, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 64, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 body {
   background-color: #252525;
   color: #d7d7d7;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   text-align: center; }
-  /* line 68, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 69, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   body a:focus {
     outline: none; }
-  /* line 72, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 73, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   body h1 {
     font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; }
 
-/* line 77, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 78, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 section {
   margin-bottom: 70px; }
-  /* line 79, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 80, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   section h1 {
     font-size: 50px; }
 
-/* line 85, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 86, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 #scrollToPortfolio {
   cursor: pointer; }
 
-/* line 89, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 90, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 header {
   height: 100vh;
   font-family: Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; }
-  /* line 93, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 94, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   header h1 {
     font-size: 181px;
     font-weight: lighter;
     line-height: 155px;
     margin: 10% auto 0;
     max-width: 181px; }
-  /* line 102, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 103, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   header p {
     margin: 0;
     font-size: 16px; }
 
-/* line 108, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 109, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 hr {
   width: 92%;
   margin-top: 50px;
   margin-bottom: 50px;
   border-color: #555555; }
 
-/* line 115, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 116, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 hr.topHR {
   margin-top: 20px; }
 
-/* line 119, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 120, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .panel {
   width: 360px;
   height: 455px;
@@ -162,36 +162,36 @@ hr.topHR {
   display: inline-block;
   vertical-align: top;
   margin: 10px 20px; }
-  /* line 131, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 132, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .panel figure a img {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     border: 4px solid #555555;
     width: 100%; }
-  /* line 137, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 138, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .panel figure a:hover img {
     border: 4px dotted #d7d7d7;
     -webkit-transition: border 0.1s ease-out;
             transition: border 0.1s ease-out; }
-  /* line 144, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 145, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .panel h4 {
     margin-top: 18px; }
-  /* line 148, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 149, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .panel .gitDiv {
     padding-top: 15px;
     font-weight: bold; }
-  /* line 153, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 154, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .panel figcaption {
     text-align: left; }
-    /* line 156, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+    /* line 157, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
     .panel figcaption a {
       color: #d7d7d7; }
-      /* line 159, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+      /* line 160, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
       .panel figcaption a:hover, .panel figcaption a:active, .panel figcaption a:focus {
         text-decoration: none;
         border-bottom: 3px dotted #d7d7d7; }
-  /* line 166, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 167, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   .panel span {
     color: #d7d7d7;
     padding: 1px 4px 2px;
@@ -203,12 +203,12 @@ hr.topHR {
 /*------------------------------------*\
     $Videos
 \*------------------------------------*/
-/* line 181, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 182, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .objectWrapper {
   max-width: 640px;
   margin: 0 auto; }
 
-/* line 186, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 187, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -216,7 +216,7 @@ hr.topHR {
   padding-top: 25px;
   height: 0; }
 
-/* line 192, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 193, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -224,34 +224,34 @@ hr.topHR {
   width: 100%;
   height: 100%; }
 
-/* line 200, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 201, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 iframe {
   border-color: #555555; }
 
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/
-/* line 207, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 208, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 footer {
   text-align: center;
   background-color: #d7d7d7;
   padding: 1.25% 0;
   font-size: 0; }
-  /* line 215, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 216, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   footer ul {
     list-style: none;
     margin: 0;
     padding: 25px 0; }
-  /* line 221, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 222, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   footer li {
     font-size: 16px;
     display: inline-block; }
-  /* line 226, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 227, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   footer span {
     display: block;
     font-size: 13px;
     text-transform: uppercase; }
-  /* line 232, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+  /* line 233, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
   footer a {
     display: block;
     -webkit-box-sizing: border-box;
@@ -263,28 +263,28 @@ footer {
     vertical-align: middle;
     border-radius: 50%;
     color: gray; }
-    /* line 243, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+    /* line 244, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
     footer a:hover, footer a:focus {
       text-decoration: none;
       border: 2px solid #252525;
       color: gray; }
-    /* line 249, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+    /* line 250, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
     footer a:hover i, footer a:focus i {
       color: #252525; }
 
 /*------------------------------------*\
     $CAROUSEL
 \*------------------------------------*/
-/* line 263, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 264, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   margin: auto; }
 
-/* line 268, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 269, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .carousel-inner {
   background-color: #808080; }
 
-/* line 276, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
+/* line 277, /Users/aj/Documents/web/site/versions/site8_justTheA/v8.1/source/stylesheets/_application.css.scss */
 .carouselWrapper {
   width: 100%;
   /* for example */
